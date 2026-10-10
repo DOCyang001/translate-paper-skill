@@ -22,7 +22,7 @@ $translate-paper 请把这篇论文完整翻译成中文，保留英文原文，
 也可以把输入文件、目标格式和保存位置写在同一条请求里：
 
 ```text
-$translate-paper 把 D:\\papers\\paper.pdf 翻译成中英逐段对照的 HTML，保存到 D:\\papers\\译文\\，图片放在同目录 images 文件夹。
+$translate-paper 把 D:\papers\paper.pdf 翻译成中英逐段对照的 HTML，保存到 D:\papers\译文\，图片放在同目录 images 文件夹。
 ```
 
 只翻译某个明确章节时，指出章节范围。只要摘要或概览时，请明确要求摘要；skill 的默认行为是全文翻译。
@@ -39,8 +39,8 @@ $translate-paper 把 D:\\papers\\paper.pdf 翻译成中英逐段对照的 HTML�
 
 将此项目文件夹放在 Codex 可发现的 skills 目录中。常见位置为：
 
-- 用户级：`%USERPROFILE%\\.agents\\skills\\translate-paper`
-- Codex 用户级：`%USERPROFILE%\\.codex\\skills\\translate-paper`
+- 用户级：`%USERPROFILE%\.agents\skills\translate-paper`
+- Codex 用户级：`%USERPROFILE%\.codex\skills\translate-paper`
 - 项目级：当前项目中的 `.agents/skills/translate-paper`
 
 目标文件夹名称必须是 `translate-paper`，且其中应直接包含 `SKILL.md`。安装目录随环境设置可能不同；也可以在请求里直接写 `$translate-paper` 并提供 skill 路径。
